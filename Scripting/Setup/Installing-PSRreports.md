@@ -31,5 +31,5 @@ Get-PSRepository -Name 'Processa GT'
 2. Actualice el módulo desde el Repositorio
 
 ```powershell
-Update-Module -Name 'PSProcessa' -Force
+Update-Module -Name 'PSReports' -Force
 ```
