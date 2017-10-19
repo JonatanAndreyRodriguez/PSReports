@@ -27,7 +27,7 @@ Get-Config -Name 'Ejemplo_1'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```PowerShell
 Get-Config -Name 'Ejemplo*'
 ```
 
