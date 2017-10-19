@@ -13,12 +13,12 @@ Elimina una configuración para la ejecución de reportes.
 ## SYNTAX
 
 ### WithInputObject
-```
+```PowerShell
 Remove-Config -InputObject <Object>
 ```
 
 ### WithName
-```
+```PowerShell
 Remove-Config -Name <String>
 ```
 
@@ -28,7 +28,7 @@ Este Command-Let elimina una configuración para la ejecución de reportes.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```PowerShell
 Remove-ReportConfig -Name 'Ejemplo_1'
 ```
 
@@ -71,10 +71,10 @@ Accept wildcard characters: False
 ### System.Void
 
 ## NOTES
-Autor: Jarodriguezc
+- Autor: Jarodriguezc
 
 ## RELATED LINKS
 
-[[Set-Config](Set-Config.md)
-[Get-Config](Get-Config.md)]()
+[Set-Config](Set-Config.md)
+[Get-Config](Get-Config.md)
 
