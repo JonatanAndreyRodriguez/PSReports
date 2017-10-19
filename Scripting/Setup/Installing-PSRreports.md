@@ -7,7 +7,7 @@
 ```powershell
 Register-PSRepository -Name 'Processa GT' -SourceLocation 'http://proget:8020/nuget/PowerShell' -InstallationPolicy Trusted
 ```
-**En el valor del parametro -SourceLocation se debe cambiar el token 'proget' por la ip donde se encuentre el repositorio** 
+**En el valor del parametro -SourceLocation se debe cambiar el dato 'proget' por la ip donde se encuentre el repositorio** 
 - Nota: si desea validar que repositorios tiene registrados
 ``` powershell
 Get-PSRepository
