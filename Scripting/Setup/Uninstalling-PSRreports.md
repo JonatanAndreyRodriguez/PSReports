@@ -1,0 +1,2 @@
+# Desisntalando
+Asi se densinstala 
