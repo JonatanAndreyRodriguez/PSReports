@@ -13,28 +13,28 @@ Crea o actualiza una configuración para la generación de archivos a partir de 
 ## SYNTAX
 
 ### WithOutputPath
-```
+```PowerShell
 Set-Config -Name <String> -InputPath <String> -OutputPath <String> [-Delimiter <Char>] -SqlKey <String>
  [-FormatName <String>] [-ScriptName <ScriptBlock>] [-TransferMode <TransferMode>] [-PGPKey <String>]
  [-FtpKey <String>] [-RemotePath <String>] [-SmtpKey <String>] [-EmailTo <String[]>] [-Header] [-Force]
 ```
 
 ### WithRepositoryandEmail
-```
+```PowerShell
 Set-Config -Name <String> -InputPath <String> [-Delimiter <Char>] -SqlKey <String> [-FormatName <String>]
  [-ScriptName <ScriptBlock>] [-TransferMode <TransferMode>] [-PGPKey <String>] -FtpKey <String>
  -RemotePath <String> -SmtpKey <String> -EmailTo <String[]> [-Header] [-Force]
 ```
 
 ### WithRepository
-```
+```PowerShell
 Set-Config -Name <String> -InputPath <String> [-Delimiter <Char>] -SqlKey <String> [-FormatName <String>]
  [-ScriptName <ScriptBlock>] [-TransferMode <TransferMode>] [-PGPKey <String>] -FtpKey <String>
  -RemotePath <String> [-Header] [-Force]
 ```
 
 ### WithEmail
-```
+```PowerShell
 Set-Config -Name <String> -InputPath <String> [-Delimiter <Char>] -SqlKey <String> [-FormatName <String>]
  [-ScriptName <ScriptBlock>] [-TransferMode <TransferMode>] [-PGPKey <String>] -SmtpKey <String>
  -EmailTo <String[]> [-Header] [-Force]
@@ -46,27 +46,27 @@ Crea o actualiza una configuración de una carpeta para la ejecución del "Scrip
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```PowerShell
 Set-Config -Name 'Ejemplo_1' -InputPath 'C:\Ruta' -SqlKey 'Ejemplo_1' -FormatName 'Reporte{0:yyyy-MM-dd}.txt' -PGPKey 'PGP_Ejemplo_1' -SmtpKey 'SMTP_Ejemplo_1' -EmailTo 'ejemplo@Processa.com' -Header
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```PowerShell
 Set-Config -Name 'Ejemplo_1' -InputPath 'C:\Ruta' -OutputPath 'C:\Ruta' -Delimiter '|' -SqlKey 'Ejemplo_1' -FormatName 'Reporte.txt' -TransferMode Binary -SmtpKey 'SMTP_Ejemplo_1' -EmailTo 'ejemplo@Processa.com' -Header
 ```
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```
+```PowerShell
 Set-Config -Name 'Ejemplo_1' -InputPath 'C:\Ruta' -OutputPath 'C:\Ruta' -Delimiter '|' -SqlKey 'Ejemplo_1' -FormatName 'Reporte{0:yyyy-MM-dd}.txt' -TransferMode Binary -FtpKey 'sftp_Ejemplo_1' -RemotePath '\Ruta\' -SmtpKey 'SMTP_Ejemplo_1' -EmailTo 'ejemplo@Processa.com'
 ```
 
 ### -------------------------- EXAMPLE 4 --------------------------
-```
+```PowerShell
 Set-Config -Name 'Ejemplo_1' -InputPath 'C:\Ruta' -Delimiter '|' -TransferMode Binary -SqlKey 'Ejemplo_1' -FormatName 'Reporte.txt ' -PGPKey 'PGP_Ejemplo_1' -FtpKey 'sftp_Ejemplo_1' -RemotePath '\Ruta\'
 ```
 
 ### -------------------------- EXAMPLE 5 --------------------------
-```
+```PowerShell
 Set-Config -Name 'Ejemplo_1' -InputPath 'C:\Ruta' -OutputPath 'C:\Ruta' -Delimiter '|' -TransferMode Binary -SqlKey 'Ejemplo_1' -ScriptName {'Reporte_{0:yyyyMMdd}.csv' -f ((Get-Date).AddDays(-1))} -PGPKey 'PGP_Ejemplo_1' -FtpKey 'sftp_Ejemplo_1' -RemotePath '\Ruta\' -SmtpKey 'SMTP_Ejemplo_1' -EmailTo 'ejemplo@Processa.com'
 ```
 
@@ -371,10 +371,10 @@ Accept wildcard characters: False
 ### System.Void
 
 ## NOTES
-Autor: Jarodriguezc
+- Autor: Jarodriguezc
 
 ## RELATED LINKS
 
-[[Get-Config](Get-Config.md)
-[Remove-Config](Remove-Config.md)]()
+[Get-Config](Get-Config.md)
+[Remove-Config](Remove-Config.md)
 
