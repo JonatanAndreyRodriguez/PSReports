@@ -2,7 +2,7 @@
 
 ### Versión Online
 
-1. Abra una ventana de PowerShell como usuario administrador y registre el repositorio de Nuget de Gerencia Técnica.
+1. Abra una ventana de PowerShell como usuario administrador y registre el repositorio de Nuget
 
 ```powershell
 Register-PSRepository -Name 'Processa GT' -SourceLocation 'http://proget:8020/nuget/PowerShell' -InstallationPolicy Trusted
@@ -22,7 +22,7 @@ Install-Module -Name 'PSReports' -Repository 'Processa GT'
 
 Si el módulo ya está instalado solo tiene que actualizarlo. 
 
-1. Asegurese de tener registrado el repositorio de Nuget de Gerencia Técnica.
+1. Asegurese de tener registrado el repositorio de Nuget.
 
 ```powershell
 Get-PSRepository -Name 'Processa GT'
