@@ -368,7 +368,7 @@ Accept wildcard characters: False
 
 ## OUTPUTS
 
-### System.Void
+System.Void
 
 ## NOTES
 - Autor: Jarodriguezc
