@@ -7,7 +7,7 @@
 ```powershell
 Register-PSRepository -Name 'Processa GT' -SourceLocation 'http://proget:8020/nuget/PowerShell' -InstallationPolicy Trusted
 ```
-- Nota: si desea validar que repositorios tiene registrado
+- Nota: si desea validar que repositorios tiene registrados
 ``` powershell
 Get-PSRepository
 ```
