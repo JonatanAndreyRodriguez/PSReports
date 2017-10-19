@@ -13,12 +13,12 @@ Realiza el proceso de crear un archivo de acuerdo a una configuración definida 
 ## SYNTAX
 
 ### WithInputObject
-```
+```PowerShell
 Invoke-Report -InputObject <Object>
 ```
 
 ### WithName
-```
+```PowerShell
 Invoke-Report -Name <String>
 ```
 
@@ -29,7 +29,7 @@ Para más información vea las funciones (Set-ReportConfig).
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```PowerShell
 Invoke-Report -Name 'Ejemplo_1'
 ```
 
@@ -69,13 +69,13 @@ Accept wildcard characters: False
 
 ## OUTPUTS
 
-### System.Void
+System.Void
 
 ## NOTES
-Autor: Jarodriguezc
+- Autor: Jarodriguezc
 
 ## RELATED LINKS
 
-[[Set-Config](Set-Config.md)
-[Get-Config](Get-Config.md)]()
+[Set-Config](Set-Config.md)
+[Get-Config](Get-Config.md)
 
