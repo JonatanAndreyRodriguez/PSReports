@@ -12,7 +12,7 @@ Obtiene las configuraciones para la generación de archivos.
 
 ## SYNTAX
 
-```
+```PowerShell
 Get-Config [[-Name] <String>]
 ```
 
@@ -22,7 +22,7 @@ Obtiene las configuraciones establecidas para la generación de archivos a parti
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```PowerShell
 Get-Config -Name 'Ejemplo_1'
 ```
 
@@ -55,12 +55,12 @@ Accept wildcard characters: True
 
 ## OUTPUTS
 
-### Processa.Management.Automation.PSReports.ConfigObject
+Processa.Management.Automation.PSReports.ConfigObject
 
 ## NOTES
 Autor: Jarodriguezc
 
 ## RELATED LINKS
 
-[[Set-Config](Set-Config.md)]()
+[Set-Config](Set-Config.md)
 
