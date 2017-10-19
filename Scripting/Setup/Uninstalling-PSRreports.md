@@ -6,5 +6,5 @@
 2. Ejecute el comando
 
 ```powershell
-Uninstall-Module PSProcessa
+Uninstall-Module PSReports
 ```
