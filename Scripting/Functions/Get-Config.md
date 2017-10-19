@@ -58,7 +58,7 @@ Accept wildcard characters: True
 Processa.Management.Automation.PSReports.ConfigObject
 
 ## NOTES
-Autor: Jarodriguezc
+- Autor: Jarodriguezc
 
 ## RELATED LINKS
 
