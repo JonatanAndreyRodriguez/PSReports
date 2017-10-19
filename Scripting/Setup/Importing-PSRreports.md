@@ -4,9 +4,9 @@
 2. Abra una ventana de PowerShell
 3. Ejecute el comando
 
-```
+```powershell
 Import-Module PSReports
 ```
 
-**Nota:**
+- **Nota:**
 El módulo quedará disponible para la sesión actual, por lo tanto estará en memoria hasta que la sesión finalice (cuando cierre la ventana).
