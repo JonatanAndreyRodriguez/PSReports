@@ -1,7 +1,8 @@
+## Estructura de la documentación
+
+Las carpetas corresponden a las versiones del modulo.
+
 | Carpeta  | Descripción  |
 |:---|---|
-| [SetConfig](Set-Config.md)  | Funciones que permiten crear o modificar configuraciones para la ejecucion de reportes. |
-| [GetConfig](Get-Config.md)  | Funciones que permiten obtener la informacion de una o varias configuraciones de reportes. |
-| [RemoveConfig](Remove-Config.md)  | Funciones que permiten eliminar la informacion de una configuracion para un reporte. |
-| [InvokeReport](Invoke-Report.md)  | Funcion que genera un reporte a partir de las configuraciones prebiamente establecidas.|
-
+| [1.0.6895.38154](1.0.6895.38154)  | Version inicial del Modulo |
+| [1.1.6789.41190](1.1.6789.41190)  | segunda version del Modulo (Incompatible con la primera version). |
