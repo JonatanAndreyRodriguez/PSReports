@@ -25,12 +25,12 @@ Para más información vea las funciones (New-Report).
 
 ### -------------------------- EXAMPLE 1 --------------------------
 ```
-Get-Report -Name 'Text' | Invoke-Report
+(Get-Report -Name 'Text') | Invoke-Report
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
 ```
-Get-Report -Name 'Text' -Version 1.0.0.0 | Invoke-Report
+(Get-Report -Name 'Text' -Version 1.0.0.0) | Invoke-Report
 ```
 
 ### -------------------------- EXAMPLE 3 --------------------------
@@ -41,7 +41,7 @@ $Object = @{
 fecha1 = '2018-01-01'
     fecha2 = '2018-01-01'
 }
-Get-Report -Name 'Text' -Version 1.0.0.0 | Invoke-Report -ParametersReport $Object
+(Get-Report -Name 'Text' -Version 1.0.0.0) | Invoke-Report -ParametersReport $Object
 
 ### -------------------------- EXAMPLE 4 --------------------------
 ```
@@ -51,7 +51,7 @@ $Object = @{
 fecha1 = '2018-01-01'
     fecha2 = '2018-01-01'
 }
-Get-Report -Name 'Text' -Version 1.0.0.0 | Invoke-Report -ParametersReport $Object -FieldDelimiter '"'
+(Get-Report -Name 'Text' -Version 1.0.0.0) | Invoke-Report -ParametersReport $Object -FieldDelimiter '"'
 
 ## PARAMETERS
 
