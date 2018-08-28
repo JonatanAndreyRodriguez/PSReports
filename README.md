@@ -58,7 +58,7 @@ Get-Report -Name $ReportName | Get-Target
 Para ejecutar un reporte es necesario utilizar la funcion Get-Report ya que el objeto de salida de esta funcion se utiliza como parametro de entrada para la funcion Invoke-Report.
 
 ```powershell
-    Get-Report -Name $ReportName | Invoke-Report
+    (Get-Report -Name $ReportName) | Invoke-Report
 ```
 
 - **Nota**
